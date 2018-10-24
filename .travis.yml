@@ -10,7 +10,7 @@ before_script:
 
 install:
   - go get -t -v ./...
-  - go get github.com/golang/lint/golint
+  - go get golang.org/x/lint/golint
   - go get github.com/opennota/check/cmd/aligncheck
   - go get github.com/opennota/check/cmd/structcheck
   - go get github.com/opennota/check/cmd/varcheck
